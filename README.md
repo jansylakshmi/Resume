@@ -1,70 +1,127 @@
-<!-- Typing Animation -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Jhansy+Lakshmi+👋;DevOps+Engineer+%7C+AWS+Cloud+Engineer;Linux+%7C+Docker+%7C+Jenkins+%7C+Terraform;Always+Learning+Something+New+🚀" />
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jhansy Lakshmi — Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+}
+header {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #1f6feb, #8250df);
+  color: white;
+}
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  animation: fadeIn 2s;
+}
+header p {
+  font-size: 22px;
+  opacity: 0.9;
+}
 
----
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
 
-## 🧑‍💻 **About Me**
-🌟 Aspiring **DevOps & AWS Cloud Engineer** passionate about automation, cloud deployments, monitoring, and CI/CD.  
-📍 Based in **Bangalore, India**  
-🎯 Currently focusing on **AWS, Jenkins, Docker, Terraform, Linux Administration**  
-📚 Career gap for exam preparation + continuous upskilling in Cloud & DevOps  
-💼 Open to **DevOps | Cloud Engineer | Linux Admin | Cloud Support** roles  
+h2 {
+  border-left: 5px solid #58a6ff;
+  padding-left: 10px;
+}
 
----
+.card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: transform .3s, background .3s;
+}
+.card:hover {
+  transform: scale(1.02);
+  background: #1f2937;
+}
 
-## ⚡ **Tech Stack**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,linux,docker,jenkins,git,github,terraform,ansible,python,kubernetes,bash&theme=dark" />
-</p>
+.skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.skill {
+  padding: 10px 15px;
+  background: #21262d;
+  border-radius: 999px;
+}
 
----
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background: #161b22;
+}
 
-## 🚀 **Projects**
-### 🔹 **Scalable E-Commerce App on AWS**
-✔ Multi-tier VPC  
-✔ ALB + Auto Scaling  
-✔ S3 + IAM + CloudWatch + SNS  
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
 
-### 🔹 **Event-Driven Log Monitoring**
-✔ CloudWatch Logs + Metric Filters  
-✔ Automated error alerts with SNS  
+<body>
 
-### 🔹 **CI/CD Pipeline using Jenkins & Docker**
-✔ Git → Jenkins → Docker Build → ECR → EC2 Deploy  
+<header>
+  <h1>Jhansy Lakshmi</h1>
+  <p>AWS & DevOps Engineer | Linux Administrator</p>
+</header>
 
----
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a dedicated AWS & DevOps Engineer with strong hands-on experience in Cloud, CI/CD, Linux, Git, Jenkins, and Automation.  
+    Though I passed out in 2021, I used my gap for competitive exam preparation and upskilling in the IT field.</p>
+  </div>
 
-## 🌈 **GitHub Stats (Animated)**
-<p align="center">
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" />
-</p>
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span class="skill">AWS</span>
+    <span class="skill">Jenkins</span>
+    <span class="skill">Git</span>
+    <span class="skill">Docker</span>
+    <span class="skill">Linux / Ubuntu</span>
+    <span class="skill">Terraform</span>
+    <span class="skill">RDS</span>
+    <span class="skill">Shell Scripting</span>
+  </div>
 
----
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>AWS Scalable Architecture</h3>
+    <p>EC2 + ALB + ASG + RDS + VPC + IAM Roles</p>
+  </div>
+  <div class="card">
+    <h3>CI/CD Pipeline Using Jenkins</h3>
+    <p>Build, Test, Deploy automation integrated with GitHub.</p>
+  </div>
 
-## 🌀 **Cool Animated Contribution Snake**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <strong>jhansylaxmi78@gmail.com</strong></p>
+    <p>LinkedIn: Your link</p>
+    <p>GitHub: Your link</p>
+  </div>
+</section>
 
----
+<footer>
+  <p>© 2025 Jhansy Lakshmi — Portfolio</p>
+</footer>
 
-## 🎧 **Fun Animated Quote**
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark" />
-</p>
-
----
-
-## 📫 **Let's Connect**
-<p align="center">
-  <a href="mailto:jansylakshmicglr@gmail.com"><img src="https://img.shields.io/badge/Email-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/jhansy-lakshmi-23b710329"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
----
-
-### ⭐ *If you like my profile, don't forget to ⭐ my repositories!*  
+</body>
+</html>
