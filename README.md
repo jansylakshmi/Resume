@@ -132,3 +132,151 @@
     }
 
     .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #0d1117;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid #30363d;
+      font-size: 14px;
+      transition: all .3s;
+    }
+
+    .skill:hover {
+      background: var(--primary);
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      border-top: 1px solid #30363d;
+    }
+
+    a { color: var(--primary); text-decoration: none; }
+
+    @media(max-width: 768px) {
+      .typing { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jhansy Lakshmi</h1>
+  <div class="typing" id="typing"></div>
+
+  <div class="actions">
+    <a class="btn" href="mailto:jansylakshmicglr@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a class="btn" href="https://linkedin.com/in/jhansy-lakshmi-23b710329"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <a class="btn" href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <h2>Professional Summary</h2>
+  <div class="card">
+    Highly driven and detail-oriented <strong>DevOps & AWS Cloud Engineer</strong> with strong hands-on experience in cloud deployment, CI/CD automation, containerization, and infrastructure monitoring. Passionate about building secure, scalable, and cost-efficient cloud solutions.
+  </div>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="card skills">
+    <span class="skill">AWS (EC2, VPC, S3, IAM, ALB, RDS)</span>
+    <span class="skill">Jenkins & CI/CD</span>
+    <span class="skill">Docker</span>
+    <span class="skill">Kubernetes</span>
+    <span class="skill">Terraform</span>
+    <span class="skill">Ansible</span>
+    <span class="skill">Linux</span>
+    <span class="skill">Shell Scripting</span>
+    <span class="skill">CloudWatch & CloudTrail</span>
+    <span class="skill">Git & GitHub</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Scalable & Secure E-Commerce Application (AWS)</h3>
+    <p>Multi-tier VPC architecture, EC2 Auto Scaling, ALB, S3, IAM, CloudWatch, SNS, SQS.</p>
+  </div>
+
+  <div class="card">
+    <h3>Event-Driven Log Monitoring & Alerting</h3>
+    <p>CloudWatch Agent, metric filters, real-time alerts using SNS.</p>
+  </div>
+
+  <div class="card">
+    <h3>CI/CD Pipeline for Static Web Application</h3>
+    <p>Git → Jenkins → Docker → ECR → EC2 automated deployment pipeline.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Education & Certification</h2>
+  <div class="card">
+    <p><strong>MSc – Applied Statistics</strong><br>Sri Venkateswara University</p>
+    <p><strong>AWS Internship Certificate</strong></p>
+  </div>
+</section>
+
+<section>
+  <h2>Career Gap (2021 – 2024)</h2>
+  <div class="card">
+    Prepared for competitive government exams while continuously upskilling in AWS, DevOps tools, Linux administration, and completing hands-on cloud projects.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2025 Jhansy Lakshmi | DevOps & Cloud Engineer
+</footer>
+
+<script>
+  const roles = [
+    "DevOps Engineer",
+    "AWS Cloud Engineer",
+    "Linux Administrator",
+    "CI/CD Automation Enthusiast"
+  ];
+  let index = 0;
+  let charIndex = 0;
+  const typing = document.getElementById("typing");
+
+  function type() {
+    if (charIndex < roles[index].length) {
+      typing.textContent += roles[index].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, 80);
+    } else {
+      setTimeout(erase, 1500);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typing.textContent = roles[index].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, 50);
+    } else {
+      index = (index + 1) % roles.length;
+      setTimeout(type, 300);
+    }
+  }
+
+  type();
+</script>
+
+</body>
+</html>
