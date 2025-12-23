@@ -1,52 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps CI/CD Pipeline Demo</title>
+# Jhansy Lakshmi
+DevOps Engineer | AWS Cloud Engineer | Linux Administrator
 
-    <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
-            color: #ffffff;
-            animation: fadeIn 1.5s ease-in;
-        }
+Motivated and detail-oriented DevOps Engineer with hands-on experience in AWS cloud services, CI/CD pipelines, automation, and containerization. Skilled in designing secure and scalable cloud architectures, deploying applications on AWS, and implementing DevOps best practices. Strong in problem-solving, infrastructure automation, and system monitoring. Actively seeking opportunities to contribute to cloud and DevOps teams.
 
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            animation: slideDown 1.2s ease-out;
-        }
+---
 
-        header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
+## Professional Summary
+DevOps Engineer with practical experience in AWS infrastructure, CI/CD automation using Jenkins, containerization with Docker, and monitoring using CloudWatch. Experienced in building secure VPC architectures, automating deployments, implementing IAM best practices, and optimizing cost and performance in AWS environments.
 
-        header p {
-            font-size: 18px;
-            opacity: 0.9;
-        }
+---
 
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-        }
+## Core Skills
 
-        .card {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 25px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            backdrop-filter: blur(6px);
-            animation: floatUp 1.5s ease forwards;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+**Cloud Platforms**
+AWS (EC2, VPC, S3, IAM, CloudWatch, CloudTrail, ECR, ECS, ALB, Lambda, RDS, SNS, Auto Scaling, Versioning, Lifecycle Policies, Budgets)
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px
+**DevOps & Automation**
+Jenkins, Git, GitHub, GitHub Actions, CI/CD Pipelines, Docker, Kubernetes, Terraform, Ansible, Amazon ECR
+
+**Monitoring & Logging**
+CloudWatch Metrics, CloudWatch Logs, CloudWatch Agent, Metric Filters, Log Monitoring, Alerting
+
+**Systems & Programming**
+Linux (Ubuntu, Amazon Linux, CentOS), Shell Scripting, Python
+
+**Networking**
+Subnets, Route Tables, NAT Gateway, Load Balancers, Security Groups, Internet Gateway (IGW)
+
+---
+
+## Projects
+
+### Scalable & Secure E-Commerce Application Architecture on AWS
+**Technologies:** EC2, VPC, ALB, Auto Scaling, S3, IAM, CloudWatch, CloudTrail, SNS, AWS Budgets  
+
+- Designed a multi-tier AWS VPC with public and private subnets, NAT Gateway, and route tables  
+- Deployed application using EC2 Auto Scaling and Application Load Balancer for high availability  
+- Managed static assets in Amazon S3 with versioning, bucket policies, and lifecycle rules  
+- Configured CloudWatch alarms and CloudTrail logging for monitoring and auditing  
+- Implemented SNS-based notifications for system events  
+- Applied IAM least-privilege access to improve security posture  
+- Optimized cost and performance using Auto Scaling policies and AWS Budgets  
+
+---
+
+### Event-Driven Log Monitoring & Alerting System
+**Technologies:** EC2, CloudWatch Logs, CloudWatch Agent, Metric Filters, SNS, IAM  
+
+- Installed and configured CloudWatch Agent to stream real-time application logs  
+- Created metric filters for error detection and automated alerting  
+- Built a real-time alert pipeline using Amazon SNS for critical log events  
+- Improved system reliability through continuous monitoring and automated insights  
+
+---
+
+### CI/CD Pipeline for Static Web Application
+**Technologies:** Jenkins, GitHub, Docker, Amazon ECR, EC2  
+
+- Built a complete CI/CD pipeline using Jenkins for automated builds and deployments  
+- Integrated GitHub for version control and automated code pull triggers  
+- Containerized the application using Docker and pushed images to Amazon ECR  
+- Automated deployment on EC2, reducing manual effort and improving consistency  
+
+---
+
+## Education
+**MSc – Applied Statistics**  
+Sri Venkateswara University
+
+---
+
+## Certifications
+- AWS Cloud Computing Internship Certification  
+- AWS DevOps Certification  
+
+---
+
+## Contact
+Email: jansylakshmicglr@gmail.com  
+LinkedIn: https://www.linkedin.com/in/jhansy-lakshmi-23b710329  
+Location: Bangalore, India
+
+---
+
+Open to DevOps Engineer, AWS Cloud Engineer, Cloud Support, and Linux Administrator roles.
